@@ -13,13 +13,15 @@
 # Si desea puede modificar el código para ingresar más palabras
 print('Ingrese palabra 1:')
 palabra_1 = str(input())
+Primera = palabra_1[0]
 
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
-
+segunda = palabra_2[0]
 print('Ingrese palabra 3:')
 palabra_3 = str(input())
-
+tercera = palabra_3[0]
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+print("el Acrónimo es",Primera+segunda+tercera)     
